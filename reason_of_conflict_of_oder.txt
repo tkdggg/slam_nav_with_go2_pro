@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zenoh in the same key?
+no, have been changed!
+
+about the ros dds?
+1.Nav2 goal action got the same point
+
+2.two dog got same cmd_vel
+the posibility is small, because when control the robot1, another is not move.
+How to prove it?
+Control one dog
+open the another dog's nav
+
+another dog maybe get the goal point too.
+
+
+
+TEST
+
+
+if the_result is True:
+	change the namespace 
+	add "namespace:=dog2" at the behind of nav launch cmd 
+
+
+
+
+
+
+
+
+
+
