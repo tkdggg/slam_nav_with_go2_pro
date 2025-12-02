@@ -1,6 +1,9 @@
 # Unitree Go2 SLAM Toolbox 项目  
 
 本项目是一个基于 ROS2 的 Unitree Go2 机器狗开发框架，集成了 SLAM 建图、自主导航、感知处理等核心功能，提供了完整的机器人开发和测试环境。
+参考项目：
+https://github.com/FishPlusDragon/unitree-go2-slam-toolbox
+https://github.com/unitreerobotics/unitree_ros2
 
 ## 📊 项目架构
 
