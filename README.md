@@ -29,7 +29,7 @@
 - **message_test**: Zenoh 通信测试目录，包含导航点发送和反馈接收功能
 
 ## 🛠️ 硬件准备  
-1. Unitree Go2 EDU 版机器狗  
+1. Unitree Go2 PRO(破解)/EDU 版机器狗  
 2. 安装 ROS2 Humble 的 PC 主机  
 3. 5-10米网线（用于机器狗与 PC 连接）  
 
@@ -45,8 +45,12 @@
 
 ## 🔧 开发环境配置  
 推荐参考以下教程完成网络环境搭建（**网络环境搭建十分重要，一定要完成**）：  
-- 赵虚左老师课程：[ROS2 入门到实战](https://www.bilibili.com/video/BV1vv5YzBEQH?spm_id_from=333.788.videopod.episodes&vd_source=4bd0448ccc277efab1a6915315abd6b9&p=5)（更适合新手）  
-- 宇树官方文档：[Go2 开发者快速入门](https://support.unitree.com/home/zh/developer/Quick_start)  
+- 宇树官方ros2 SDK：
+https://github.com/unitreerobotics/unitree_ros2
+安装完之后需要在本项目的工作空间
+```
+source setup.sh
+```
 
 ## 📦 依赖安装  
 1. 安装机器人定位融合包  
@@ -81,12 +85,12 @@
 
 2. **克隆仓库**  
    ```bash
-   git clone https://github.com/FishPlusDragon/unitree-go2-slam-toolbox.git
+   git clone https://github.com/tkdggg/slam_nav_with_go2_pro.git
    ```  
 
 3. **编译工作空间**  
    ```bash
-   cd .. && colcon build
+   cd .. && colcon build --parallel-workers 1
    ```  
 
 4. **启动 SLAM 建图（包含可视化）**  
@@ -101,7 +105,7 @@
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
 
-### 导航功能启动
+### 新开终端导航功能启动
 ```bash
 source install/setup.bash
 ros2 launch go2_navigation2 go2_nav2.launch.py
@@ -145,7 +149,7 @@ ros2 launch go2_navigation2 go2_nav2.launch.py
    - 确保环境中有足够的特征点以便 SLAM 算法工作
 
 2. **导航参数调整**：
-   - 导航参数可在 `go2_navigation2/config/nav2_params.yaml` 中调整
+   - 导航参数可在 `go2_nav2.launch.py` 中调整
    - 可根据实际环境修改控制器参数以获得更好的导航效果
 
 3. **多机器人配置**：
