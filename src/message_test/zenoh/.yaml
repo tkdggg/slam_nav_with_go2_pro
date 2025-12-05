@@ -1,0 +1,11 @@
+edge/robot1/action:
+{ 
+  "x": float, 
+  "y": float, 
+  "z": float, 
+  "qx": float, 
+  "qy": float, 
+  "qz": float, 
+  "qw": float, 
+  "point_id": "point_{point_index}_timestamp"
+}  

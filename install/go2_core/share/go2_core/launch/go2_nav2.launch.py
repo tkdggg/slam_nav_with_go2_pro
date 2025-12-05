@@ -8,6 +8,18 @@ import os
 
 
 def generate_launch_description():
+
+    message_test_dir = get_package_share_directory('message_test')
+    message_test_launch_file = os.path.join(
+        message_test_dir, 
+        'launch', 
+        'message_test_run.launch.py' # 请确保文件名正确
+    )
+
+    message_test_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([message_test_launch_file]),
+    )
+
     # 创建LaunchDescription对象
     ld = LaunchDescription()
 
@@ -456,6 +468,10 @@ def generate_launch_description():
     ld.add_action(bt_navigator_node)
     ld.add_action(waypoint_follower_node)
     ld.add_action(velocity_smoother_node)
+
+    # VVVV 嵌套 Launch 文件 VVVV
+    # ld.add_action(message_test_launch)
+
     ld.add_action(lifecycle_manager_node)
 
     return ld

@@ -1,0 +1,44 @@
+[0.480s] Invoking command in '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/src/message_test': PYTHONPATH=/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/message_test build --build-base /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build install --record /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log --single-version-externally-managed install_data
+[0.659s] running egg_info
+[0.659s] creating ../../build/message_test/message_test.egg-info
+[0.659s] writing ../../build/message_test/message_test.egg-info/PKG-INFO
+[0.659s] writing dependency_links to ../../build/message_test/message_test.egg-info/dependency_links.txt
+[0.659s] writing entry points to ../../build/message_test/message_test.egg-info/entry_points.txt
+[0.659s] writing requirements to ../../build/message_test/message_test.egg-info/requires.txt
+[0.659s] writing top-level names to ../../build/message_test/message_test.egg-info/top_level.txt
+[0.659s] writing manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+[0.660s] reading manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+[0.661s] writing manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+[0.661s] running build
+[0.661s] running build_py
+[0.661s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build
+[0.661s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib
+[0.661s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test
+[0.661s] copying message_test/test.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test
+[0.661s] copying message_test/__init__.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test
+[0.661s] copying message_test/pub_pos_base_link.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test
+[0.661s] copying message_test/exe.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test
+[0.661s] running install
+[0.661s] running install_lib
+[0.661s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test
+[0.662s] copying /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test/test.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test
+[0.662s] copying /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test/__init__.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test
+[0.662s] copying /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test/pub_pos_base_link.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test
+[0.662s] copying /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test/exe.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test
+[0.662s] byte-compiling /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test/test.py to test.cpython-310.pyc
+[0.663s] byte-compiling /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test/__init__.py to __init__.cpython-310.pyc
+[0.663s] byte-compiling /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test/pub_pos_base_link.py to pub_pos_base_link.cpython-310.pyc
+[0.663s] byte-compiling /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test/exe.py to exe.cpython-310.pyc
+[0.664s] running install_data
+[0.664s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/ament_index
+[0.664s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/ament_index/resource_index
+[0.664s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/ament_index/resource_index/packages
+[0.664s] copying resource/message_test -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/ament_index/resource_index/packages
+[0.664s] copying package.xml -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/message_test
+[0.664s] running install_egg_info
+[0.665s] Copying ../../build/message_test/message_test.egg-info to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test-0.0.0-py3.10.egg-info
+[0.665s] running install_scripts
+[0.678s] Installing exe_node script to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/message_test
+[0.678s] Installing pub_pos_base_link_node script to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/message_test
+[0.678s] writing list of installed files to '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log'
+[0.692s] Invoked command in '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/src/message_test' returned '0': PYTHONPATH=/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/message_test build --build-base /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build install --record /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log --single-version-externally-managed install_data

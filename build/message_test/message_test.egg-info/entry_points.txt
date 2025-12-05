@@ -1,0 +1,4 @@
+[console_scripts]
+exe_node = message_test.exe:main
+pub_pos_base_link_node = message_test.pub_pos_base_link:main
+

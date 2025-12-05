@@ -29,6 +29,13 @@ def generate_launch_description():
             )
         )
 
+    # 导航发布机器人baselink pose和 接收目标pose
+    go2_nav2 = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                os.path.join(go2_core_pkg, "launch", "go2_nav2.launch.py")
+            )
+        )
+
     # 启动驱动包
     go2_driver_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -46,7 +53,7 @@ def generate_launch_description():
     # slam-toolbox 配置
     go2_slamtoolbox_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
-                os.path.join(go2_slam_pkg, "launch", "go2_slamtoolbox.launch.py")
+                os.path.join(go2_slam_pkg, "launch", "go2_slamtoolbox.launch.py")  # go2_slamtoolbox.launch.py :建图模式   go2_slamtoolbox_loco.launch.py :定位模式（加载已有地图）
             ),
             condition=IfCondition(LaunchConfiguration('use_slamtoolbox'))
         )
@@ -65,5 +72,6 @@ def generate_launch_description():
         go2_robot_localization,
         go2_pointcloud_launch,
         go2_slamtoolbox_launch,
-        rviz_node
+        # go2_nav2,  
+        # rviz_node  
     ])

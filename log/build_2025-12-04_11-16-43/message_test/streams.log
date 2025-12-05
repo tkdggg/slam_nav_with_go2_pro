@@ -1,0 +1,25 @@
+[0.463s] Invoking command in '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/src/message_test': PYTHONPATH=/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/message_test build --build-base /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build install --record /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log --single-version-externally-managed install_data
+[0.645s] running egg_info
+[0.645s] writing ../../build/message_test/message_test.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/message_test/message_test.egg-info/dependency_links.txt
+[0.645s] writing entry points to ../../build/message_test/message_test.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/message_test/message_test.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/message_test/message_test.egg-info/top_level.txt
+[0.647s] reading manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+[0.647s] writing manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.648s] running install
+[0.648s] running install_lib
+[0.649s] running install_data
+[0.649s] copying package.xml -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/message_test
+[0.649s] creating /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/message_test/launch
+[0.649s] copying launch/message_test_run.launch.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/share/message_test/launch
+[0.649s] running install_egg_info
+[0.650s] removing '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.650s] Copying ../../build/message_test/message_test.egg-info to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test-0.0.0-py3.10.egg-info
+[0.650s] running install_scripts
+[0.664s] Installing exe_node script to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/message_test
+[0.664s] Installing pub_pos_base_link_node script to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/message_test
+[0.664s] writing list of installed files to '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log'
+[0.681s] Invoked command in '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/src/message_test' returned '0': PYTHONPATH=/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/message_test build --build-base /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build install --record /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log --single-version-externally-managed install_data

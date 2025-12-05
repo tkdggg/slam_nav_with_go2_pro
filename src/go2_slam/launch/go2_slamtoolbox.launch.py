@@ -14,6 +14,7 @@ def generate_launch_description():
         get_package_share_directory("go2_slam"),
         "config",
         "mapper_params_online_async.yaml"
+        
         )
     #包含slam_toolbox的launch文件
     slam_toolbox_launch = IncludeLaunchDescription(

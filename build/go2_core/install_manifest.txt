@@ -1,4 +1,3 @@
-/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_nav2.launch_after.py
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_start.launch.py
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_robot_localization.launch.py
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_nav2.launch.py

@@ -1,4 +1,6 @@
+/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_slam/share/go2_slam/launch/go2_slamtoolbox_loco.launch.py
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_slam/share/go2_slam/launch/go2_slamtoolbox.launch.py
+/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_slam/share/go2_slam/config/mapper_params_localization.yaml
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_slam/share/go2_slam/config/mapper_params_online_async.yaml
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_slam/share/ament_index/resource_index/package_run_dependencies/go2_slam
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_slam/share/ament_index/resource_index/parent_prefix_path/go2_slam

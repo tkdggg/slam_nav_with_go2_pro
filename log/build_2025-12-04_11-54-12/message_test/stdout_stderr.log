@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/message_test/message_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/message_test/message_test.egg-info/dependency_links.txt
+writing entry points to ../../build/message_test/message_test.egg-info/entry_points.txt
+writing requirements to ../../build/message_test/message_test.egg-info/requires.txt
+writing top-level names to ../../build/message_test/message_test.egg-info/top_level.txt
+reading manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/message_test/message_test.egg-info/SOURCES.txt'
+running build
+running build_py
+copying message_test/pub_pos_base_link.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test
+running install
+running install_lib
+copying /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/build/lib/message_test/pub_pos_base_link.py -> /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test
+byte-compiling /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test/pub_pos_base_link.py to pub_pos_base_link.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/message_test/message_test.egg-info to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/python3.10/site-packages/message_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exe_node script to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/message_test
+Installing pub_pos_base_link_node script to /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/message_test/lib/message_test
+writing list of installed files to '/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/build/message_test/install.log'
