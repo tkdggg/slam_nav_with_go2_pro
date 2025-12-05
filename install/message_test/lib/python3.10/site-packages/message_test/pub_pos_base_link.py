@@ -31,11 +31,11 @@ class BaseLinkPosePublisher(Node):
 
             self.pose_pub.publish(pose)
             # 可选：打印到终端
-            # self.get_logger().info(
-            #     f"x={pose.pose.position.x:.3f}, y={pose.pose.position.y:.3f}, "
-            #     f"yaw={self.quat_to_yaw(pose.pose.orientation):.3f}",
-            #     throttle_duration_sec=1.0  # 每秒最多打一次
-            # )
+            self.get_logger().info(
+                f"x={pose.pose.position.x:.3f}, y={pose.pose.position.y:.3f}, "
+                f"yaw={self.quat_to_yaw(pose.pose.orientation):.3f}",
+                throttle_duration_sec=1.0  # 每秒最多打一次
+            )
         except Exception as e:
             self.get_logger().debug(f"TF not ready: {e}")
 

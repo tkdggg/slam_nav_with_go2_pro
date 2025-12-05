@@ -1,6 +1,5 @@
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_start.launch.py
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_robot_localization.launch.py
-/home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/launch/go2_nav2.launch.py
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/rviz2/display.rviz
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/go2_core/config/go2_ekf_params.yaml
 /home/tkn-yangfukang/HiveMind-Dev/Third-Party-Implementation-Unitree-SDK/go2/unitree-go2-slam-toolbox/install/go2_core/share/ament_index/resource_index/package_run_dependencies/go2_core

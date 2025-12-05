@@ -53,8 +53,8 @@ def generate_launch_description():
             'general_goal_checker': {
                 'stateful': True,
                 'plugin': "nav2_controller::SimpleGoalChecker",
-                'xy_goal_tolerance': 0.25,
-                'yaw_goal_tolerance': 0.25
+                'xy_goal_tolerance': 0.2,
+                'yaw_goal_tolerance': 0.2
             },
 
             'FollowPath': {
@@ -65,10 +65,10 @@ def generate_launch_description():
                 "vx_std": 0.2,
                 "vy_std": 0.2,
                 "wz_std": 0.4,
-                "vx_max": 0.5,
-                "vx_min": -0.35,
-                "vy_max": 0.5,
-                "wz_max": 1.9,
+                "vx_max": 1.2,
+                "vx_min": -1.0,
+                "vy_max": 0.8,
+                "wz_max": 2.5,
                 "iteration_count": 1,
                 "prune_distance": 1.7,
                 "transform_tolerance": 0.1,
@@ -199,7 +199,7 @@ def generate_launch_description():
             },
 
             # BT Navigator
-            # 修改为Humble兼容版本
+            # 修改为Humble兼容message_test_launch版本
             'bt_navigator': {
                 'use_sim_time': True,
                 'global_frame': 'map',
@@ -303,15 +303,15 @@ def generate_launch_description():
                     'robot_base_frame': 'base_link',
                     'use_sim_time': True,
                     'rolling_window': True,
-                    'width': 3,
-                    'height': 3,
+                    'width': 6,
+                    'height': 6,
                     'resolution': 0.05,
                     'robot_radius': 0.22,
                     'plugins': ["voxel_layer", "inflation_layer"],
                     'inflation_layer': {
                         'plugin': "nav2_costmap_2d::InflationLayer",
                         'cost_scaling_factor': 3.0,
-                        'inflation_radius': 0.55
+                        'inflation_radius': 0.25
                     },
                     'voxel_layer': {
                         'plugin': "nav2_costmap_2d::VoxelLayer",
